@@ -57,6 +57,25 @@ int Character::getAttack()
 	return _attack;
 }
 
+int Character::getAbilityValue(char abilityChoice)
+{
+	return 0;
+}
+
+int Character::getAbilityValue(char abilityChoice, int attack)
+{
+	//_abilityName = "Punch";
+	//_abilityDamage = 0;
+	//_mana -= 0;
+	//_abilityCost = 0;
+	return 0;
+}
+
+int Character::getManaCost(char abilityChoice)
+{
+	return 0;
+}
+
 Character::Character(string name, string playerClass, int startingHealth, int startingMana, int startingAttack)
 {
 	_name = name;

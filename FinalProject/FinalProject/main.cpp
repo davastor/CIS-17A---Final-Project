@@ -42,6 +42,7 @@ void CharacterCreation(string &name, char &prof)
 
 void Rounds(shared_ptr<Character> character)
 {
+	system("cls");
 	cout << "\nPrepare for battle challenger!  Survive 5 rounds and you shall be victorious!" << endl;
 	cout << "Each round you will be restored 30 mana.  Good luck . . ." << endl;
 
@@ -139,6 +140,8 @@ void collectLoot(shared_ptr <Character> &character, shared_ptr <Monster> monster
 char choice;
 int damage;
 int heal;
+
+system("cls");
 
 cout << "\nWhat ability will you use?" << endl;
 if (character.getClass() == "Warrior")
