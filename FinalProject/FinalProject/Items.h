@@ -6,9 +6,9 @@ class Items
 {
 private:
 	string _itemName;
-	int _hpInc;
-	int _mpInc;
-	int _attInc;
+	int _hpInc = 0;
+	int _mpInc = 0;
+	int _attInc = 0;
 	int _itemRand;
 
 public:

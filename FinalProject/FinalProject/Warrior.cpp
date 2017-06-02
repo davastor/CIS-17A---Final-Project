@@ -11,11 +11,12 @@ Warrior::~Warrior()
 {
 }
 
-int Warrior::getAbilityDamage(char abilityChoice, int attack)
+int Warrior::getAbilityValue(char abilityChoice, int attack)
 {
 	if (abilityChoice == 'C')
-		return attack * 2;
-	else
+		return (attack * 3);
+	
+	if(abilityChoice == 'W')
 		return 50;
 }
 

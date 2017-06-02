@@ -5,7 +5,7 @@
 Items::Items()
 {
 	srand((unsigned int)time(NULL));
-	_itemRand = rand() % 3;
+	_itemRand = rand() % 4;
 
 	if (_itemRand == 0)
 	{
@@ -17,10 +17,15 @@ Items::Items()
 		_itemName = "Health Potion";
 		_hpInc = 100;
 	}
-	else
+	else if (_itemRand == 2)
 	{
 		_itemName = "Mana Potion";
 		_mpInc = 100;
+	}
+	else
+	{
+		_itemName = "Mysterious Ring";
+		_attInc = 1;
 	}
 }
 

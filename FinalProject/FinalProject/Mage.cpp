@@ -14,9 +14,9 @@ Mage::~Mage()
 int Mage::getAbilityValue(char abilityChoice)
 {
 	if (abilityChoice == 'M')
-		return 200;
+		return 100;
 	else
-		return 80;
+		return 120;
 }
 
 int Mage::getManaCost(char abilityChoice)
