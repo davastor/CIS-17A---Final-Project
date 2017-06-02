@@ -10,7 +10,7 @@ Items::Items()
 	if (_itemRand == 0)
 	{
 		_itemName = "Mysterious Amulet";
-		_attInc = 15;
+		_attInc = 10;
 	}
 	else if (_itemRand == 1)
 	{
@@ -25,7 +25,7 @@ Items::Items()
 	else
 	{
 		_itemName = "Mysterious Ring";
-		_attInc = 1;
+		_attInc = 5;
 	}
 }
 
